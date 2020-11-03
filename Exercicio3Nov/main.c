@@ -23,6 +23,11 @@ int main()
     printf("A soma de %.2f com %.2f e %.2f\n",num1, num2, num1+num2);
     printf("A subtraçao de %.2f com %.2f e %.2f\n",num1, num2, num1-num2);
     printf("A multiplicacao de %.2f com %.2f e %.2f\n",num1, num2, num1*num2);
+    /**
+     * @brief na divisao nao está previsto o caso do segundo numero introduzido ser 0
+     * 
+     */
+
     printf("A divisao de %.2f com %.2f e %.2f",num1, num2, num1/num2);
     
     getchar();
